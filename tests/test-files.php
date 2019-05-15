@@ -38,6 +38,15 @@ class Force_Login_Pro_File_Checks extends WP_UnitTestCase {
 	}
 
 	/**
+	 * Verify our Code of Conduct Exists.
+	 *
+	 * @access public
+	 */
+	public function test_code_of_conduct_md_exists() {
+		$this->assertFileExists( 'code-of-conduct.md' );
+	}
+
+	/**
 	 * Verify Uninstall File Exists.
 	 *
 	 * @access public
