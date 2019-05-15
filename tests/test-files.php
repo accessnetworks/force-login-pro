@@ -27,6 +27,16 @@ class Force_Login_Pro_File_Checks extends WP_UnitTestCase {
 	public function test_readme_txt_exists() {
 		$this->assertFileExists( 'readme.txt' );
 	}
+
+	/**
+	 * Verify our License.txt Exists.
+	 *
+	 * @access public
+	 */
+	public function test_license_txt_exists() {
+		$this->assertFileExists( 'license.txt' );
+	}
+
 	/**
 	 * Verify Uninstall File Exists.
 	 *
