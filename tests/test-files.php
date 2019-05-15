@@ -24,7 +24,7 @@ class Force_Login_Pro_File_Checks extends WP_UnitTestCase {
 	 *
 	 * @access public
 	 */
-	public function test_readme_md_exists() {
+	public function test_readme_txt_exists() {
 		$this->assertFileExists( 'readme.txt' );
 	}
 	/**
