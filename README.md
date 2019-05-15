@@ -1,6 +1,8 @@
 # Force Login Pro
 A simple WordPress plugin to force login.
 
+[![Build Status](https://travis-ci.org/accessnetworks/force-login-pro.svg?branch=master)](https://travis-ci.org/accessnetworks/force-login-pro)
+
 ## Description
 
 Keep your WordPress site secure by requiring all visitors to first login to your site. Simply turn it on and it works out of the box.
