@@ -1,0 +1,17 @@
+test/*
+.github
+.git
+bin
+tests
+.codeclimate.yml
+.distignore
+.editorconfig
+.gitignore
+.travis.yml
+composer.json
+composer.lock
+Gruntfile.js
+package.json
+phpcs.xml
+phpcs.xml.dist
+phpunit.xml.dist
