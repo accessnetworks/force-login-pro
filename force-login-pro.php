@@ -3,7 +3,7 @@
  * Plugin Name: Force Login Pro
  * Plugin URI: https://github.com/accessnetworks/force-login-pro
  * Description: Force users to login before viewing your WordPress site. Activate to turn on.
- * Version: 0.0.2
+ * Version: 0.0.3
  * Author: Access Networks
  * Author URI: https://www.accessca.com
  *
@@ -31,7 +31,7 @@ register_deactivation_hook( __FILE__, 'flush_rewrite_rules' );
 function force_login_pro_init() {
 	define( 'FORCE_LOGIN_PRO_URL', plugin_dir_url( __FILE__ ) );
 	define( 'FORCE_LOGIN_PRO_DIR', plugin_dir_path( __FILE__ ) );
-	define( 'FORCE_LOGIN_PRO_VERSION', '0.0.1' );
+	define( 'FORCE_LOGIN_PRO_VERSION', '0.0.3' );
 	define( 'FORCE_LOGIN_PRO_DB_VERSION', '0.0.1' );
 }
 
@@ -99,7 +99,7 @@ function force_login_rest_access( $result ) {
 	}
 	return $result;
 }
-add_filter( 'rest_authentication_errors', 'force_login_rest_access', 99 );
+// add_filter( 'rest_authentication_errors', 'force_login_rest_access', 99 );
 
 /**
  * Localization.
