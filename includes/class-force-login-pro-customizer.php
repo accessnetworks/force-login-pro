@@ -41,7 +41,7 @@ if ( ! class_exists( 'Force_Login_Pro_Customizer' ) ) {
 			$wp_customize->add_panel(
 				'forceloginpro_panel',
 				array(
-					'priority'       => 10,
+					'priority'       => 5000,
 					'capability'     => 'manage_options',
 					'theme_supports' => '',
 					'title'          => __( 'Force Login Pro', 'force-login-pro' ),
