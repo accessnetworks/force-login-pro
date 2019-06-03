@@ -19,6 +19,8 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
+require_once( 'includes/class-force-login-pro-customizer.php' );
+
 // Flush on Activation and Deactivation.
 register_activation_hook( __FILE__, 'flush_rewrite_rules' );
 register_deactivation_hook( __FILE__, 'flush_rewrite_rules' );
@@ -99,7 +101,7 @@ function force_login_rest_access( $result ) {
 	}
 	return $result;
 }
-// add_filter( 'rest_authentication_errors', 'force_login_rest_access', 99 );
+add_filter( 'rest_authentication_errors', 'force_login_rest_access', 99 );
 
 /**
  * Localization.
