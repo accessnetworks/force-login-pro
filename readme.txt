@@ -1,6 +1,6 @@
 === Force Login Pro ===
 Contributors: accessnetworks, bhubbard
-Donate link: https://accessca.com
+Donate link: https://accessnetworks.com
 Tags: login, privacy, protected, protection, security, registered only, restricted
 Requires at least: 5.0
 Tested up to: 5.2
